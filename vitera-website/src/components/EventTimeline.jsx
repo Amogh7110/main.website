@@ -81,7 +81,20 @@ Design for Good represents Vitera's commitment to empowering students to become 
   },
   {
     id: 3,
-    name: "To Be Announced",
+    name: "The House of Royals",
+    description: "Details coming soon. Stay tuned for upcoming events from VITERA.",
+    bannerPath: "/images/Events_Pics/DesignForGood/poster.jpg", // replace with an actual placeholder image in public/images
+    keyWords: ["TBA"],
+    date: "February 27, 2026",
+    imagesStrip1: [],
+    imagesStrip2: [],
+    featured: false,
+    registrationLink: "https://forms.gle/RV3sNJreBNG7nPKH6", 
+    isOngoing: true
+  },
+  {
+    id: 4,
+    name: "Too be announced Soon",
     description: "Details coming soon. Stay tuned for upcoming events from VITERA.",
     bannerPath: "/images/coming.jpg", // replace with an actual placeholder image in public/images
     keyWords: ["TBA"],
