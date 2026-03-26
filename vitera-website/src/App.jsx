@@ -13,6 +13,7 @@ import Winner from './components/winner';
 import { useState, useEffect } from 'react';
 import About from './components/About';
 import Alumni from './components/Alumni';
+import Footer from './components/Footer';
 
 function TeamPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,6 +54,9 @@ function App() {
 
      {/* Global scroll-to-top button */}
      <ScrollToTopButton />
+
+     {/* Global Footer */}
+     <Footer />
     </>
   );
 }

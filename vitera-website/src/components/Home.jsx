@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import './App.css';
 import MessageSection from './MessageSection';
-import Footer from './Footer';
 import EventsSection from './Event';
 import GallerySection from './GallerySection';
 
@@ -163,7 +162,6 @@ function Home() {
       <GallerySection />
       <EventsSection />
       <MessageSection />
-      <Footer />
     </div>
   );
 }

@@ -325,14 +325,14 @@ const TeamMembers = () => {
 
   return (
     <section id="team" className="team-members-section py-16 scroll-mt-[90px]">
-      <div className="max-w-[1200px] mx-auto px-4">
-        <h2 className="text-center text-[3rem] font-extrabold mb-8 text-white">Our Teams</h2>
-        <p className="text-center text-[color:var(--text-secondary)] mb-12 max-w-[700px] mx-auto">
+      <div className="container">
+        <h2 className="team-members-title text-center text-[3rem] font-extrabold mb-8 text-white">Our Teams</h2>
+        <p className="team-members-subtitle text-center text-[color:var(--text-secondary)] mb-12 max-w-[700px] mx-auto">
           Meet the passionate individuals driving VITERA's mission forward across different domains
         </p>
 
         {/* Team Navigation */}
-        <div className="team-nav">
+        <div className="team-nav w-full flex justify-center">
           {teams.map((t) => (
             <button
               key={t.id}
@@ -345,7 +345,7 @@ const TeamMembers = () => {
         </div>
 
         {/* Team Members Grid */}
-        <div className="team-members-container">
+        <div className="team-members-container w-full">
           {teams.map((team) => (
             <div 
               key={team.id} 

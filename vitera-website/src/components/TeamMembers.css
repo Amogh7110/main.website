@@ -1,10 +1,25 @@
 /* Team Members Section Styles - Scoped to prevent conflicts */
+.team-members-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.team-members-title {
+  margin-bottom: 2rem !important;
+}
+
+.team-members-subtitle {
+  margin-bottom: 4rem !important;
+}
+
 .team-members-section .team-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
+  align-items: center;
   margin-bottom: 3rem;
+  width: 100%;
 }
 
 .team-members-section .team-nav-btn {
@@ -37,10 +52,12 @@
 }
 
 .team-members-section .members-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
   padding: 1rem;
+  width: 100%;
 }
 
 .team-members-section .member-card {
@@ -56,6 +73,9 @@
   text-align: center;
   padding: 0;
   height: 400px;
+  width: 280px;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
 
 .team-members-section .member-card:hover {
