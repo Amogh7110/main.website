@@ -38,13 +38,13 @@ const Alumni = () => {
       name: "Taneesh Patel",
       role: "Ex-Technical Lead",
       exRole: "Technical Team",
-      image: "/images/Our Team/Tech Team/taneesh.jpeg"
+      image: "/images/alumni/taneesh.jpeg"
     },
     {
       name: "Shravan Jain",
       role: "Ex-Technical Co-Lead",
       exRole: "Technical Team",
-      image: "/images/Our Team/Tech Team/shravan.jpg"
+      image: "/images/alumni/shravan.jpg"
     },
     {
       name: "Bhaskar Ojha",
@@ -56,49 +56,49 @@ const Alumni = () => {
       name: "Avinash Kumar",
       role: "Ex-Technical Member",
       exRole: "Technical Team",
-      image: "/images/Our Team/Tech Team/avinash.jpg"
+      image: "/images/alumni/avinash.jpg"
     },
    {
       name: "Akshay Kumar Mishra",
       role: "Ex-Technical Member",
       exRole: "Technical Team",
-      image: "/images/Our Team/Tech Team/akshay.jpg"
+      image: "/images/alumni/akshay.jpg"
     },
   {
       name: "Kapil Kumar Arya",
       role: "Ex-Technical Member",
       exRole: "Technical Team",
-      image: "/images/Our Team/Tech Team/kapil.jpg"
+      image: "/images/alumni/kapil.jpg"
     },
   {
       name: "Arya Sharma",
       role: "Ex-PR & Outreach Team Lead",
       exRole: "PR & Outreach Team",
-      image: "/images/Our Team/PR & Outreach Team/arya sharma.jpg"
+      image: "/images/alumni/arya sharma.jpg"
     },
   {
       name: "Mohd Hammad",
       role: "Ex-Photography Team Lead",
       exRole: "Photography Team",
-      image: "/images/Our Team/Photography Team/hammad.jpg"
+      image: "/images/alumni/hammad.jpg"
     },
   {
       name: "Saurav Pandey",
       role: "Ex-Design Team Lead",
       exRole: "Design Team",
-      image: "/images/Our Team/Design Team/saurav.jpeg"
+      image: "/images/alumni/saurav.jpeg"
     },
   {
       name: "Aribah Amin",
       role: "Ex-Design Team Co-Lead",
       exRole: "Design Team",
-      image: "/images/Our Team/Design Team/aribah.jpg"
+      image: "/images/alumni/aribah.jpg"
     },
     {
       name: "Navya Srivastava",
       role: "Ex-Content Team Member",
       exRole: "Content Team",
-      image: "/images/Our Team/Content Team/navya.jpg"
+      image: "/images/alumni/navya.jpg"
     },
   ];
 
